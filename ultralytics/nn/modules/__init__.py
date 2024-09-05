@@ -68,6 +68,7 @@ from .conv import (
     LightConv,
     RepConv,
     SpatialAttention,
+    EMA,
 )
 from .head import OBB, Classify, Detect, Pose, RTDETRDecoder, Segment, WorldDetect, v10Detect
 from .transformer import (
@@ -111,6 +112,7 @@ __all__ = (
     "C3",
     "C2f",
     "C2fAttn",
+    "EMA",
     "C3x",
     "C3TR",
     "C3Ghost",
